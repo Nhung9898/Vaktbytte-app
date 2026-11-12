@@ -43,3 +43,38 @@ Mobilversjon: Enkelt, kort med store knapper.
 │ Mine  Ledige Forespørsler│
 └─────────────────────────┘
 
+
+## Datamodell
+```mermaid
+erDiagram
+    BRUKER ||--o{ VAKT : "eier"
+    VAKT ||--o{ BYTTEFORESPORSEL : "gjelder"
+    BRUKER ||--o{ BYTTEFORESPORSEL : "sender"
+
+    BRUKER {
+        string id
+        string navn
+        string rolle
+        string avdeling
+    }
+    VAKT {
+        string id
+        string dato
+        string start
+        string slutt
+        string type
+        string eierId
+        string status
+    }
+    BYTTEFORESPORSEL {
+        string id
+        string vaktId
+        string fraBrukerId
+        string tilBrukerId
+        string status
+    }
+```
+
+
+
+
