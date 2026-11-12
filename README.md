@@ -19,3 +19,27 @@ Facebook-grupper og man har ikke oversikt på hvordan dette påvirker lønningen
 ## Status
 🚧 Under planlegging
 
+##Wireframes:
+Mobilversjon: Enkelt, kort med store knapper. 
+┌─────────────────────────┐
+│  ☰  Mine vakter        │
+├─────────────────────────┤
+│  NOVEMBER               │
+│ ┌─────────────────────┐ │
+│ │ Lør 14. nov         │ │
+│ │ Kveld 15:00–22:30   │ │
+│ │ Avd. Medisin        │ │
+│ │        [Legg ut]    │ │
+│ └─────────────────────┘ │
+│ ┌─────────────────────┐ │
+│ │ Tir 17. nov         │ │
+│ │ Dag 07:30–15:00     │ │
+│ │ Avd. Medisin        │ │
+│ │        [Legg ut]    │ │
+│ └─────────────────────┘ │
+│                         │
+├─────────────────────────┤
+│  🏠    🔄    📋    👤  │
+│ Mine  Ledige Forespørsler│
+└─────────────────────────┘
+
